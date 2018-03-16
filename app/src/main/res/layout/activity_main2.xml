@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context="uk.co.cruentus.experiment1.Main2Activity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="109dp"
+        android:layout_height="34dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="14dp" />
+
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +27,9 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main2" />
+    <include
+        layout="@layout/content_main2"
+        tools:layout_editor_absoluteY="393dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

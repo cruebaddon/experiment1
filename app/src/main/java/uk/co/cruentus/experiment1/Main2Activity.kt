@@ -5,6 +5,9 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 
 import kotlinx.android.synthetic.main.activity_main2.*
+import android.content.Intent
+
+
 
 class Main2Activity : AppCompatActivity() {
 
@@ -18,5 +21,4 @@ class Main2Activity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
     }
-
 }
